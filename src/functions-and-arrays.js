@@ -21,7 +21,7 @@ const words = [
 function findLongestWord(words) {
 	let longestWord = "";
 	if (words.length === 0) {
-		return (longestWord = null);
+		return null;
 	}
 	for (let i = 0; i < words.length; i++) {
 		if (words[i].length > longestWord.length) {
